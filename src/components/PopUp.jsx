@@ -10,6 +10,7 @@ export default function PopUp({ clotes, onClose }) {
         <img src={clotes.image} alt={clotes.name} />
         <button onClick={onClose}>X</button>
       </div>
+      <div></div>
     </div>
   );
 }
